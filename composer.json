@@ -1,0 +1,38 @@
+{
+	"name": "emedia-intellect/emi-fileupload",
+	"description": "A simple cross-platform object-oriented library intended to handle uploaded files.",
+	"type": "library",
+	"keywords": ["file", "upload"],
+	"homepage": "https://emi.is/?page=solutions&solution=emi-fileupload-library",
+	"license": "GPL-3.0",
+	"authors":
+	[
+		{
+			"name": "Stefán Örvar Sigmundsson",
+			"email": "stefan.orvar.sigmundsson@emi.is",
+			"homepage": "https://sos.emi.is/",
+			"role": "programmer"
+		}
+	],
+	"support":
+	{
+		"email": "emi@emi.is",
+		"source": "https://github.com/eMedia-Intellect/eMI-FileUpload-Library"
+	},
+	"require":
+	{
+		"php": ">=7.2"
+	},
+	"autoload":
+	{
+		"classmap":
+		[
+			"Library/Exceptions/InvalidErrorCodeException.php",
+			"Library/Exceptions/NoFilesUploadedException.php",
+			"Library/Exceptions/NoTemporaryDirectoryException.php",
+			"Library/Exceptions/UnknownErrorCodeException.php",
+			"Library/File.php",
+			"Library/Upload.php"
+		]
+	}
+}
